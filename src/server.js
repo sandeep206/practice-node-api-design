@@ -25,6 +25,10 @@ app.post('/data', (req, res) => {
   res.send(req.body)
 })
 
+app.put('/data', (req, res) => {})
+
+app.delete()
+
 export const start = () => {
   app.listen(3000, () => {
     console.log('server is on 3000')
